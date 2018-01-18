@@ -1,0 +1,69 @@
+body{
+  background-color: #F2FAFF;
+}
+h4{
+  font-family: "Source-Han-Normfae0fb67d1bace";
+}
+.countdown-container{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    font-size: 3.4rem;
+}
+.score-container{
+    width: 100%;
+    height: 10px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 50px;
+    text-align: center;
+    font-family: "Source-Han-Normfae0fb67d1bace","Microsoft Yahei";;
+    font-size: 2rem;
+}
+.score-container .score{
+    color: #FF8533;
+}
+#quizList .item{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 4px #E6EBEF;
+}
+#quizList .side-slide{
+  width: 80%;
+  margin: 10px auto;
+  text-align: center;
+  font-family: "Source-Han-Normfae0fb67d1bace","Microsoft Yahei";;
+  font-size: 3.4rem;
+}
+#quizList .question{
+    width: 80%;
+    margin: 10px auto;
+    text-align: left;
+    font-family: "Source-Han-Normfae0fb67d1bace";
+    font-size: 3.4rem;
+}
+#quizList .final-score{
+  color: #FF8533;
+}
+#quizList .options{
+    width: 80%;
+    margin: 5% auto;
+    font-size: 2rem;
+}
+#quizList .option{
+    text-align: left;
+    font-family: Source-Han-Lighfae0e8a901bace;
+    padding: 5px 0;
+}
+#quizList .correct-answer{
+    border: 1px solid #3c763d;
+    border-radius: 5px;
+    background-color: #dff0d8;
+}
+#quizList li{
+    list-style-type:none;
+}

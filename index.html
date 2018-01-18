@@ -1,0 +1,44 @@
+<!Doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>reveal.js - Barebones</title>
+		<link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://assets-cdn.github.com/favicon.ico">
+		<link href='http://cdn.webfont.youziku.com/webfonts/nomal/113358/46865/5a607c39f629d9161404ca6b.css' rel='stylesheet' type='text/css' />
+		<link href='http://cdn.webfont.youziku.com/webfonts/nomal/113358/46863/5a607c86f629d9161404ca6d.css' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="./src/css/reveal.css">
+		<link rel="stylesheet" href="./src/css/TimeCircles.css">
+		<link rel="stylesheet" href="./src/css/main.css">
+	</head>
+	<body>
+		<div class="countdown-container">
+			<div class="countdown" data-timer="16"></div>
+		</div>
+		<div class="reveal">
+			<div id="quizList" class="slides">
+				<section class='item'>
+					<h2 class='side-slide'>Warm up</h2>
+					<ul class='options'>
+						<li class='option' >
+							1.趣味抢答游戏分为6组，以组内最后一个答案为准；
+						</li>
+						<li class='option' >
+							2.每组30题，总分30分；
+						</li>
+						<li class='option' >
+							3.每题答题时间限时10s以内；
+						</li>
+					</ul>
+					<p>切换操作 => { "下一题": "空格键「Space」", "答案" : "回车键「Enter」", "加分" : "加号键「+」"}</p>
+				</section>
+			</div>
+		</div>
+		<div class="score-container">
+				得分：<span class="score">0</span>分
+		</div>
+		<script type="text/javascript" src="./src/js/jquery.js"></script>
+		<script type="text/javascript" src="./src/js/reveal.js"></script>
+		<script type="text/javascript" src="./src/js/TimeCircles.js"></script>
+		<script type="text/javascript" src="./src/js/vendor.js"></script>
+	</body>
+</html>
