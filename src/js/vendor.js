@@ -45,7 +45,6 @@ $(document).ready(function(){
           var score = 0;
           quizList.map((i,index) => {
              var quistion = data[i];
-             console.log(quistion);
              $("#quizList").append(
                "<section class='item' data-answer='" + (quistion.answer - 1) + "'>" +
                 "<h2 class='question'>" + (index + 1) + "."+ quistion.quiz + "</h2>" +
@@ -99,7 +98,6 @@ $(document).ready(function(){
           Reveal.initialize();
 
           $('body').on('keypress', function(e) {
-              console.log(e.keyCode);
               if (e.keyCode == 13 || e.which == 13) {
                   if(!Reveal.isFirstSlide()&&!Reveal.isLastSlide()){
                     showAnswer();
